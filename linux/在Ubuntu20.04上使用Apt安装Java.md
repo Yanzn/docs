@@ -53,14 +53,14 @@ Press <enter> to keep the current choice[*], or type selection number:
 
 ``` bash
 # 打开nano编辑文件
-$ sudo nano /etc/environment 
+$ sudo nano ~/.bashrc
 ```
 
 将 ` JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64" `添加到文件
 
 ``` bash
 # load 文件
-$ source /etc/environment
+$ sudo source ~/.bashrc
 ```
 
 ``` bash
@@ -70,3 +70,5 @@ $ echo $JAVA_HOME
 Output
 /usr/lib/jvm/java-11-openjdk-amd64
 ```
+
+[参考](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-20-04)
